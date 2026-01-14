@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  background-color: lightskyblue;
+  color: #2c2c2c;
+  text-align: justify;
+}
+
+/* Kártya alap */
+.content-card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 2.2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Főcím */
+.focim {
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 4px solid #2563eb;
+  letter-spacing: -0.02em;
+}
+
+/* Lead (fejlécben) */
+.lead {
+  font-size: 1.1rem;
+  color: #1f2933;
+  font-weight: 600;
+  background-color: #f1f5ff;
+  padding: 0.8rem 1rem;
+  border-left: 5px solid #2563eb;
+  border-radius: 6px;
+  margin-bottom: 1.2rem;
+}
+
+/* Szekció */
+.content-section {
+  padding-top: 0.2rem;
+}
+
+/* H2 */
+h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+  padding-left: 0.6rem;
+  border-left: 4px solid #2563eb;
+  color: #1f2933;
+}
+
+/* Accordion stílus */
+.faq-accordion .accordion-item {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 0.8rem;
+}
+
+.faq-accordion .accordion-button {
+  font-weight: 600;
+  color: #1f2933;
+  background-color: #ffffff;
+}
+
+.faq-accordion .accordion-button:not(.collapsed) {
+  background-color: #f1f5ff;
+  color: #1e40af;
+  box-shadow: none;
+}
+
+.faq-accordion .accordion-body {
+  color: #2c2c2c;
+}
+
+/* Footer */
+.brand-title {
+  font-weight: 700;
+  color: #1f2933;
+}
+
+.brand-slogan {
+  color: #52606d;
+}

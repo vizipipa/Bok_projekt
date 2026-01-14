@@ -1,62 +1,257 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GY.I.K. – PixelPajzs Web Studio</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous"
+  />
+
+  <link rel="stylesheet" href="../css/gyik.css" />
 </head>
+
 <body>
-    GY.I.K. – Gyakran Ismételt Kérdések
+  <header class="py-5">
+    <div class="container col-lg-9 col-xl-8">
+      <div class="content-card">
+        <h1 class="focim">GY.I.K. – Gyakran Ismételt Kérdések</h1>
 
-    PixelPajzs Web Studio
+        <p class="lead">
+          PixelPajzs Web Studio
+        </p>
 
-    Az alábbi kérdések segítenek eligazodni a weboldalkészítés folyamatában, a szolgáltatásainkban és a technikai részletekben. Ha nem találod meg a választ, vedd fel velünk a kapcsolatot! 
+        <p class="mb-0">
+          Az alábbi kérdések segítenek eligazodni a weboldalkészítés folyamatában, a szolgáltatásainkban és a technikai részletekben.
+          Ha nem találod meg a választ, vedd fel velünk a kapcsolatot!
+        </p>
+      </div>
+    </div>
+  </header>
 
-    Mennyi idő alatt készül el egy weboldal? 
+  <main class="pb-5">
+    <div class="container col-lg-9 col-xl-8">
+      <section class="content-card content-section">
+        
+        <div class="accordion faq-accordion" id="faqAccordion">
 
-    Egy egyszerű bemutatkozó vagy céges weboldal általában 5–10 munkanap alatt elkészül. Komplexebb oldalak (több aloldal, webshop, egyedi funkciók) esetén a fejlesztés 2–4 hét is lehet. A pontos időtartamot minden esetben az igényfelmérés után határozzuk meg. 
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#a1" aria-expanded="true" aria-controls="a1">
+                Mennyi idő alatt készül el egy weboldal?
+              </button>
+            </h2>
+            <div id="a1" class="accordion-collapse collapse show" aria-labelledby="q1" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Egy egyszerű bemutatkozó vagy céges weboldal általában <strong>5–10 munkanap</strong> alatt elkészül.
+                Komplexebb oldalak (több aloldal, webshop, egyedi funkciók) esetén a fejlesztés <strong>2–4 hét</strong> is lehet.
+                A pontos időtartamot minden esetben az igényfelmérés után határozzuk meg.
+              </div>
+            </div>
+          </div>
 
-    Milyen technológiával dolgoztok?
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q2">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2" aria-expanded="false" aria-controls="a2">
+                Milyen technológiával dolgoztok?
+              </button>
+            </h2>
+            <div id="a2" class="accordion-collapse collapse" aria-labelledby="q2" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Modern webes technológiákat használunk: <strong>HTML, CSS, JavaScript</strong>, valamint igény esetén dinamikus megoldásokat is.
+                Reszponzív, gyors és keresőbarát weboldalakat készítünk, amelyek minden eszközön megfelelően működnek.
+              </div>
+            </div>
+          </div>
 
-     Modern webes technológiákat használunk: HTML, CSS, JavaScript, valamint igény esetén dinamikus megoldásokat is. Reszponzív, gyors és keresőbarát weboldalakat készítünk, amelyek minden eszközön megfelelően működnek. 
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q3">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3" aria-expanded="false" aria-controls="a3">
+                Mi a különbség egy weboldal és egy webalkalmazás között?
+              </button>
+            </h2>
+            <div id="a3" class="accordion-collapse collapse" aria-labelledby="q3" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Egy weboldal elsősorban információközlésre szolgál (bemutatkozás, szolgáltatások, kapcsolat).
+                Egy webalkalmazás már összetettebb: felhasználói bejelentkezést, adatkezelést, interaktív funkciókat tartalmazhat
+                (pl. időpontfoglaló rendszer, admin felület). Mi mindkét típus elkészítésében tudunk segíteni.
+              </div>
+            </div>
+          </div>
 
-     Mi a különbség egy weboldal és egy webalkalmazás között?
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q4">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a4" aria-expanded="false" aria-controls="a4">
+                Mit jelent, hogy egy weboldal reszponzív?
+              </button>
+            </h2>
+            <div id="a4" class="accordion-collapse collapse" aria-labelledby="q4" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                A reszponzív weboldal automatikusan alkalmazkodik a különböző képernyőméretekhez – mobil, tablet, számítógép.
+                Ez javítja a felhasználói élményt, és a Google találati listáján is előnyt jelenthet.
+              </div>
+            </div>
+          </div>
 
-    Egy weboldal elsősorban információközlésre szolgál (bemutatkozás, szolgáltatások, kapcsolat). Egy webalkalmazás már összetettebb, felhasználói bejelentkezést, adatkezelést, interaktív funkciókat tartalmazhat (pl. időpontfoglaló rendszer, admin felület). Mi mindkét típus elkészítésében tudunk segíteni. Mit jelent, hogy egy weboldal reszponzív? A reszponzív weboldal automatikusan alkalmazkodik a különböző képernyőméretekhez – legyen szó mobiltelefonról, tabletről vagy számítógépről. Ez nemcsak a felhasználói élményt javítja, hanem a Google találati listáján is előnyt jelent.
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q5">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a5" aria-expanded="false" aria-controls="a5">
+                Nekem kell megvennem a domaint és a tárhelyet?
+              </button>
+            </h2>
+            <div id="a5" class="accordion-collapse collapse" aria-labelledby="q5" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Segítünk a megfelelő domain név és webtárhely kiválasztásában, de a regisztráció történhet általunk vagy a megrendelő által is.
+                Ha szeretnéd, a teljes technikai beállítást átvállaljuk.
+              </div>
+            </div>
+          </div>
 
-    Nekem kell megvennem a domaint és a tárhelyet?
-    Segítünk a megfelelő domain név és webtárhely kiválasztásában, de a regisztráció történhet általunk vagy a megrendelő által is. Ha szeretnéd, a teljes technikai beállítást átvállaljuk. 
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q6">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a6" aria-expanded="false" aria-controls="a6">
+                Tudom majd később szerkeszteni az oldalamat?
+              </button>
+            </h2>
+            <div id="a6" class="accordion-collapse collapse" aria-labelledby="q6" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Igen. Olyan megoldásokat készítünk, amelyek lehetővé teszik a tartalom egyszerű frissítését.
+                Ha igényled, rövid útmutatót is adunk a használathoz.
+              </div>
+            </div>
+          </div>
 
-    Tudom majd később szerkeszteni az oldalamat? 
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q7">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a7" aria-expanded="false" aria-controls="a7">
+                Mennyibe kerül egy weboldal elkészítése?
+              </button>
+            </h2>
+            <div id="a7" class="accordion-collapse collapse" aria-labelledby="q7" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Az ár mindig a weboldal összetettségétől függ (aloldalak száma, egyedi design, funkciók – űrlap, térkép, webshop).
+                Ezért minden projekt előtt egyedi árajánlatot készítünk. Nincsenek rejtett költségek.
+              </div>
+            </div>
+          </div>
 
-    Igen. Olyan megoldásokat készítünk, amelyek lehetővé teszik a tartalom egyszerű frissítését. Ha igényled, rövid útmutatót is adunk a használathoz. Mennyibe kerül egy weboldal elkészítése? Az ár mindig a weboldal összetettségétől függ: aloldalak száma egyedi design funkciók (űrlap, térkép, webshop stb.) Ezért minden projekt előtt egyedi árajánlatot készítünk. Nincsenek rejtett költségek. 
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q8">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a8" aria-expanded="false" aria-controls="a8">
+                Mi az a SEO, és miért fontos?
+              </button>
+            </h2>
+            <div id="a8" class="accordion-collapse collapse" aria-labelledby="q8" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                A SEO (keresőoptimalizálás) segít, hogy a weboldalad előrébb jelenjen meg a Google találati listáján.
+                Már az oldal felépítésénél figyelembe vesszük az alap SEO szempontokat: megfelelő címsorok, gyors betöltés,
+                mobilbarát megjelenés, keresőbarát tartalom.
+              </div>
+            </div>
+          </div>
 
-    Mi az a SEO, és miért fontos? 
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q9">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a9" aria-expanded="false" aria-controls="a9">
+                Kapok karbantartást a weboldalhoz?
+              </button>
+            </h2>
+            <div id="a9" class="accordion-collapse collapse" aria-labelledby="q9" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Igen. Igény esetén vállalunk technikai frissítéseket, biztonsági mentéseket, kisebb tartalmi módosításokat.
+                Így az oldalad hosszú távon is biztonságos és naprakész marad.
+              </div>
+            </div>
+          </div>
 
-    A SEO (keresőoptimalizálás) segít abban, hogy a weboldalad előrébb jelenjen meg a Google találati listáján. Mi már az oldal felépítésénél figyelembe vesszük az alap SEO szempontokat: megfelelő címsorok gyors betöltés mobilbarát megjelenés keresőbarát tartalom 
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q10">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a10" aria-expanded="false" aria-controls="a10">
+                Mennyire biztonságos egy weboldal?
+              </button>
+            </h2>
+            <div id="a10" class="accordion-collapse collapse" aria-labelledby="q10" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Kiemelten figyelünk a webes biztonságra: HTTPS titkosítás, erős jelszavas védelem,
+                alapvető támadások elleni védekezés, adatvédelmi szempontok. Célunk, hogy a látogatók adatai védve legyenek.
+              </div>
+            </div>
+          </div>
 
-    Kapok karbantartást a weboldalhoz?
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q11">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a11" aria-expanded="false" aria-controls="a11">
+                Kell adatkezelési tájékoztató és süti figyelmeztetés?
+              </button>
+            </h2>
+            <div id="a11" class="accordion-collapse collapse" aria-labelledby="q11" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Igen. A GDPR előírásai szerint minden olyan weboldalnak, amely adatot kezel (pl. kapcsolatfelvételi űrlap),
+                rendelkeznie kell adatkezelési tájékoztatóval. Segítünk ezek alapverziójának elkészítésében.
+              </div>
+            </div>
+          </div>
 
-    Igen. Igény esetén vállalunk: technikai frissítéseket biztonsági mentéseket kisebb tartalmi módosításokat Így az oldalad hosszú távon is biztonságos és naprakész marad. 
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q12">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a12" aria-expanded="false" aria-controls="a12">
+                Mit kell biztosítanom a kezdéshez?
+              </button>
+            </h2>
+            <div id="a12" class="accordion-collapse collapse" aria-labelledby="q12" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                A projekt indításához szükségünk van: a weboldal céljára, szöveges tartalomra (vagy vázlatra), képekre, logóra (ha van),
+                és példákra olyan oldalakra, amelyek tetszenek. Ha nincs minden készen, segítünk a tartalom összeállításában is.
+              </div>
+            </div>
+          </div>
 
-    Mennyire biztonságos egy weboldal? 
-    
-    A PixelPajzs Web Studio kiemelten figyel a webes biztonságra: HTTPS titkosítás erős jelszavas védelem alapvető támadások elleni védekezés adatvédelmi szempontok figyelembevétele Célunk, hogy a látogatók adatai védve legyenek. 
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q13">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a13" aria-expanded="false" aria-controls="a13">
+                Mi történik az átadás után?
+              </button>
+            </h2>
+            <div id="a13" class="accordion-collapse collapse" aria-labelledby="q13" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Az elkészült weboldalt élesítjük, teszteljük, majd átadjuk. Igény szerint biztosítunk rövid használati útmutatót,
+                utólagos támogatást és karbantartási csomagot.
+              </div>
+            </div>
+          </div>
 
-    Kell adatkezelési tájékoztató és süti figyelmeztetés? 
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q14">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a14" aria-expanded="false" aria-controls="a14">
+                Hogyan vehetem fel veletek a kapcsolatot?
+              </button>
+            </h2>
+            <div id="a14" class="accordion-collapse collapse" aria-labelledby="q14" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                A Kapcsolat menüpont alatt megtalálod az elérhetőségeinket és az üzenetküldő űrlapot.
+                Minden megkeresésre 24 órán belül válaszolunk.
+              </div>
+            </div>
+          </div>
 
-    Igen. A GDPR előírásai szerint minden olyan weboldalnak, amely adatot kezel (pl. kapcsolatfelvételi űrlap), rendelkeznie kell adatkezelési tájékoztatóval. Segítünk ezek alapverziójának elkészítésében. 
+        </div>
+      </section>
 
-    Mit kell biztosítanom a kezdéshez? 
-    
-    A projekt indításához szükségünk van: a weboldal céljára szöveges tartalomra (vagy vázlatra) képekre, logóra (ha van) példákra olyan oldalakra, amelyek tetszenek Ha nincs minden készen, segítünk a tartalom összeállításában is. 
+      <footer class="content-card">
+        <p class="mb-1 brand-title">PixelPajzs Web Studio</p>
+        <p class="mb-0 brand-slogan">Gyors, biztonságos, reszponzív weboldalak</p>
+      </footer>
+    </div>
+  </main>
 
-    Mi történik az átadás után? 
-    
-    Az elkészült weboldalt élesítjük, teszteljük, majd átadjuk. Igény szerint biztosítunk: rövid használati útmutatót utólagos támogatást karbantartási csomagot 
-
-    Hogyan vehetem fel veletek a kapcsolatot? 
-
-    A Kapcsolat menüpont alatt megtalálod az elérhetőségeinket és az üzenetküldő űrlapot. Minden megkeresésre 24 órán belül válaszolunk. PixelPajzs Web Studio Gyors, biztonságos, reszponzív weboldalak
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
 </body>
 </html>
