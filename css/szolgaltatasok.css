@@ -1,42 +1,21 @@
 body {
-    margin: 0;
-    background-color: #f1f5f9;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: #1e293b;
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 18px;
+  background-color: #f8fafc;
+  color: #1f2933;
 }
 
-header {
-    background-color: #0f172a;
-    padding: 15px;
-    text-align: center;
+.service-card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-header a {
-    color: #e5e7eb;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-}
-
-header a:hover {
-    color: #38bdf8;
-}
-
-.main {
-    max-width: 900px;
-    margin: auto;
-    padding: 30px;
-}
-
-section {
-    background-color: #ffffff;
-    padding: 25px;
-    border-radius: 12px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-h1, h2 {
-    color: #0d6efd;
+h1 {
+  border-bottom: 4px solid #2563eb;
+  padding-bottom: 0.5rem;
 }
