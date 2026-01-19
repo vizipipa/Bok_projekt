@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  background-color: #eef2f7;
+  color: #1f2933;
+}
+
+/* Kártya */
+.info-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Oldalcím */
+.page-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 4px solid #0d9488;
+}
+
+/* Alcím */
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+  padding-left: 0.6rem;
+  border-left: 4px solid #0d9488;
+}
+
+/* Menü */
+header {
+  background-color: #0f172a;
+}
+
+header a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+header a:hover {
+  color: #5eead4;
+}
