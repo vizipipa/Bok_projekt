@@ -1,48 +1,138 @@
-<!DOCTYPE html>
-<html lang="hu">
-<head>
-  <meta charset="UTF-8">
-  <title>Szakmai alapok</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  background-color: lightskyblue;
+  color: #2c2c2c;
+}
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/szakmai.css">
-</head>
+/* Kártyák */
+.content-card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 2.2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 
-<body>
 
-<header class="py-3">
-  <div class="container">
-    <a href="szakmai.html">Szakmai</a>
-    <a href="szolgaltatasok.html">Szolgáltatások</a>
-  </div>
-</header>
 
-<main class="py-5">
-  <div class="container col-lg-9 col-xl-8">
+.page-title {
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 4px solid #2563eb;
+  letter-spacing: -0.02em;
+}
 
-    <section class="info-card">
-      <h1 class="page-title">Webes alapfogalmak</h1>
-      <p>Ez az oldal bemutatja a weboldalak működésének legfontosabb alapjait.</p>
-    </section>
 
-    <section class="info-card">
-      <h2>Mi az a weboldal?</h2>
-      <p>A weboldal egy interneten elérhető információs felület.</p>
-    </section>
+h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+  padding-left: 0.6rem;
+  border-left: 4px solid #2563eb;
+  color: #1f2933;
+}
 
-    <section class="info-card">
-      <h2>Webalkalmazás</h2>
-      <p>A webalkalmazás interaktív funkciókat biztosít a felhasználóknak.</p>
-    </section>
 
-    <section class="info-card">
-      <h2>Kliens és szerver</h2>
-      <p>A kliens (böngésző) kérést küld, a szerver válaszol.</p>
-    </section>
+.subheading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #334155;
+}
 
-  </div>
-</main>
+/* Lead */
+.lead {
+  font-size: 1.1rem;
+  color: #1f2933;
+  font-weight: 500;
+  background-color: #f1f5ff;
+  padding: 0.8rem 1rem;
+  border-left: 5px solid #2563eb;
+  border-radius: 6px;
+  margin-bottom: 1.2rem;
+}
 
-</body>
-</html>
+/* Listák */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.1rem;
+}
+
+li {
+  padding-left: 1.4rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #2563eb;
+  font-weight: bold;
+}
+
+
+.highlight {
+  background-color: #e0e7ff;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #1e40af;
+}
+
+/* Dobozok */
+.definition-box {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 5px solid #0ea5e9;
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+
+.definition-box strong {
+  color: #0369a1;
+}
+
+.tip-box {
+  background-color: #ecfdf5;
+  border-left: 5px solid #10b981;
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  margin: 1rem 0;
+  color: #065f46;
+}
+
+.important-box {
+  background-color: #fff7ed;
+  border-left: 5px solid #f97316;
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  margin: 1rem 0;
+  color: #7c2d12;
+}
+
+.example-box {
+  background-color: #f3f4f6;
+  border-left: 5px solid #6366f1;
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  margin: 1rem 0;
+  color: #1f2937;
+}
+
+.content-section {
+  padding-top: 0.2rem;
+}

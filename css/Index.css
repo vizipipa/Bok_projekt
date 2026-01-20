@@ -1,0 +1,41 @@
+body {
+  background-color: #4FDEEC;
+  margin: 0;
+}
+
+
+.Kepesoldal {
+    background-image: url("../Képek/Index.png");
+    background-size: cover;        /* kitölti a teljes képernyőt */
+    background-position: center;   /* középre igazítja */
+    background-repeat: no-repeat;  /* ne ismétlődjön */
+    width: 100%;
+    min-height: 90vh;             /* teljes képernyő magasság */
+}
+.definition-box {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 5px solid #0ea5e9;
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+}
+.szoveg {
+  text-align: center;
+}
+#logo {
+    width: auto;
+}
+#szoveg2 {
+  background-color: #4FDEEC;
+  padding: 4rem 0;   /* felül-alul több levegő */
+}
+#formGroupExampleInput, #formGroupExampleInput2  {
+    width: 50%;
+}
+.card {
+  border-radius: 12px;
+}
+
+.card-title {
+  color: #0ea5e9;
+}
