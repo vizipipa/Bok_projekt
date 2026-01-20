@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Webszerkesztési nyelvek és technológiák</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/webnyelv.css">
+
+</head>
+<body>
+<nav class="navbar custom-navbar">
+  <div class="container-fluid">
+
+    <a class="navbar-brand" href="index.html">
+      <img src="../Képek/P.png" alt="Logo" width="100" height="50">
+    </a>
+
+    <ul class="nav-links">
+      <li class="dropdown">
+        <a href="#">Menü ▾</a>
+        <ul class="dropdown-list">
+          <li><a href="index.html">Főoldal</a></li>
+          <li><a href="szamiawebdesign.html">felhasználó élmény</a></li>
+          <li><a href="gyik.html">GY.I.K</a></li>
+          <li><a href="szakmaialapfogalmak.html">Szakmai alapok</a></li>
+          <li><a href="szolgaltatasok.html">Szolgáltatások</a></li>
+          <li><a href="webnyelv.html">webnyelv</a></li>
+        </ul>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+<header class="py-5">
+  <div class="container col-lg-9 col-xl-8">
+    <div class="kartya">
+      <h1 class="oldalcim">Webszerkesztési nyelvek és technológiák</h1>
+      <p class="bevezeto">
+        A weboldalak több “részt” használnak együtt. Van, ami a szerkezetet adja,
+        van, ami a kinézetet, és van, ami a működést (pl. kattintás, űrlap).
+      </p>
+      <p class="mb-0">
+        Most megnézzük a legfontosabbakat: HTML, CSS, JavaScript, statikus vs. dinamikus oldalak,
+        és a frontend/backendet.
+      </p>
+    </div>
+  </div>
+</header>
+<main class="pb-5">
+  <div class="container col-lg-9 col-xl-8">
+
+    <section class="kartya szakasz">
+      <h2>HTML: mire való?</h2>
+      <p>
+        A <strong>HTML</strong> a weboldal “váza”. Ezzel mondod meg, hogy
+        mi hol legyen az oldalon: cím, szöveg, kép, menü, gomb stb.
+      </p>
+      <div class="doboz definicio-doboz">
+        <p class="mb-0">
+          <strong>Egyszerűen:</strong> HTML = elrendezés és tartalom (címek, bekezdések, képek, linkek).
+        </p>
+      </div>
+      <h3 class="alcim">Példák (emberi nyelven)</h3>
+      <ul>
+        <li><strong>Cím</strong> (pl. nagy betűs főcím a tetején)</li>
+        <li><strong>Szöveg</strong> (egy bekezdés, amit elolvasol)</li>
+        <li><strong>Link</strong> (amire kattintasz és másik oldalra visz)</li>
+        <li><strong>Kép</strong> (logo vagy fotó)</li>
+        <li><strong>Doboz</strong> (egy “tartály”, amibe több dolgot beleraksz)</li>
+      </ul>
+      <div class="doboz tipp-doboz">
+        <p class="mb-0">
+          <strong>Tipp:</strong> A HTML-ben érdemes logikusan felépíteni az oldalt (fejléc, tartalom, lábléc).
+        </p>
+      </div>
+    </section>
+
+    <section class="kartya szakasz">
+      <h2>CSS: miért fontos a kinézet?</h2>
+      <p>
+        A <strong>CSS</strong> felel a weboldal kinézetéért: színek, betűméret, térköz,
+        dobozok mérete, elrendezés.
+      </p>
+      <h3 class="alcim">Mit csinál a CSS?</h3>
+      <ul>
+        <li>Színt ad a háttérnek és a szövegnek</li>
+        <li>Beállítja a betűtípust és méretet</li>
+        <li>Rendezi az elemeket (pl. egymás mellé vagy alá)</li>
+        <li>Szebbé és átláthatóbbá teszi az oldalt</li>
+      </ul>
+      <div class="doboz pelda-doboz">
+        <p class="mb-0">
+          <strong>Példa:</strong> HTML nélkül nincs “tartalom”, CSS nélkül meg “csupasz” és rendezetlen lesz az oldal.
+        </p>
+      </div>
+    </section>
+
+    <section class="kartya szakasz">
+      <h2>JavaScript: hogyan lesz “kattintható” az oldal?</h2>
+      <p>
+        A <strong>JavaScript</strong> a weboldal működését adja: például gombra kattintva történjen valami,
+        ellenőrizze az űrlapot, nyíljon ki egy menü.
+      </p>
+      <h3 class="alcim">Tipikus JavaScript dolgok</h3>
+      <ul>
+        <li>Gombnyomásra változik a tartalom</li>
+        <li>Űrlap ellenőrzése (pl. email legyen helyes)</li>
+        <li>Felugró ablakok, üzenetek</li>
+        <li>Menük nyitása-zárása</li>
+      </ul>
+      <div class="doboz fontos-doboz">
+        <p class="mb-0">
+          <strong>Fontos:</strong> A JavaScript legtöbbször a böngészőben fut (frontend), de létezhet szerveren is.
+        </p>
+      </div>
+    </section>
+
+    <section class="kartya szakasz">
+      <h2>Statikus és dinamikus weboldal</h2>
+      <p>
+        Van olyan oldal, ami csak “kész” tartalmat mutat (statikus), és van olyan,
+        ami adatokat kezel, bejelentkezést tud, és változik a tartalma (dinamikus).
+      </p>
+      <h3 class="alcim">Statikus oldal</h3>
+      <ul>
+        <li>Egyszerűbb</li>
+        <li>Gyors betöltés</li>
+        <li>Ritkábban változik a tartalom</li>
+      </ul>
+      <h3 class="alcim">Dinamikus oldal</h3>
+      <ul>
+        <li>Összetettebb</li>
+        <li>Adatbázist használhat</li>
+        <li>Bejelentkezés, rendelés, admin felület lehet benne</li>
+      </ul>
+      <div class="doboz pelda-doboz">
+        <p class="mb-0">
+          <strong>Példa:</strong> Egy egyszerű bemutatkozó oldal gyakran statikus, egy webshop szinte mindig dinamikus.
+        </p>
+      </div>
+    </section>
+
+    <section class="kartya szakasz">
+      <h2>Frontend és backend</h2>
+      <div class="doboz definicio-doboz">
+        <p class="mb-1"><strong>Frontend:</strong> amit a felhasználó lát (a böngészőben).</p>
+        <p class="mb-0"><strong>Backend:</strong> ami a háttérben fut (szerver, adatok, logika).</p>
+      </div>
+
+      <h3 class="alcim">Frontend példák</h3>
+      <ul>
+        <li>HTML (tartalom + szerkezet)</li>
+        <li>CSS (kinézet)</li>
+        <li>JavaScript (működés)</li>
+      </ul>
+      <h3 class="alcim">Backend példák</h3>
+      <ul>
+        <li>Adatok kezelése (pl. felhasználók, termékek)</li>
+        <li>Bejelentkezés, jogosultságok</li>
+        <li>Válasz küldése a böngészőnek</li>
+      </ul>
+
+      <div class="doboz tipp-doboz">
+        <p class="mb-0">
+          <strong>Tipp:</strong> Frontend = kirakat, Backend = raktár + pénztár.
+        </p>
+      </div>
+    </section>
+
+    <section class="kartya szakasz">
+      <h2>Összegzés</h2>
+      <ul>
+        <li><strong>HTML</strong>: szerkezet (mi hol legyen)</li>
+        <li><strong>CSS</strong>: kinézet (színek, betűk, elrendezés)</li>
+        <li><strong>JavaScript</strong>: működés (kattintás, interakció)</li>
+        <li><strong>Statikus</strong>: egyszerű, ritkán változik</li>
+        <li><strong>Dinamikus</strong>: összetettebb, adatokat kezel</li>
+        <li><strong>Frontend</strong>: amit látunk</li>
+        <li><strong>Backend</strong>: háttérmunka</li>
+      </ul>
+      <div class="doboz pelda-doboz">
+        <p class="mb-0">
+          Ha ezt érted, már jól átlátod, miből áll egy weboldal alapja.
+        </p>
+      </div>
+    </section>
+  </div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
