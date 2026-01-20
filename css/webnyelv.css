@@ -50,21 +50,31 @@ body {
 .fontos-doboz {
   background: white;
 }
-/*menu */
+/* menu */
 .custom-navbar {
   background-color: #2c3e50;
   padding: 10px 20px;
 }
 
-/* fő menü */
+
 .nav-links {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
+
 .dropdown {
   position: relative;
+}
+
+.dropdown::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 10px;
 }
 
 .dropdown > a {
@@ -74,11 +84,10 @@ body {
   padding: 8px 12px;
 }
 
-
-.dropdown-list {/*lista kinézete*/
+.dropdown-list {
   list-style: none;
   position: absolute;
-  top: 35px;
+  top: 30px; /* volt 35px → kisebb rés */
   left: 0;
   background-color: white;
   border-radius: 6px;
@@ -90,15 +99,14 @@ body {
   display: none;
 }
 
-
-.dropdown-list li a { 
+.dropdown-list li a {
   display: block;
   padding: 10px 20px;
   color: #2c3e50;
   text-decoration: none;
 }
 
-.dropdown-list li a:hover { /*animáció*/
+.dropdown-list li a:hover {
   background-color: #f1f1f1;
 }
 
