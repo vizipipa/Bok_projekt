@@ -19,3 +19,60 @@ h1 {
   border-bottom: 4px solid #2563eb;
   padding-bottom: 0.5rem;
 }
+/*menu */
+.custom-navbar {
+  background-color: #2c3e50;
+  padding: 10px 20px;
+}
+
+/* fő menü */
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* lenyíló */
+.dropdown {
+  position: relative;
+}
+
+.dropdown > a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 12px;
+}
+
+/* lenyíló lista */
+.dropdown-list {
+  list-style: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background-color: white;
+  border-radius: 6px;
+  padding: 5px 0;
+  margin: 0;
+  min-width: 180px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+  display: none;
+}
+
+/* elemek */
+.dropdown-list li a {
+  display: block;
+  padding: 10px 20px;
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.dropdown-list li a:hover {
+  background-color: #f1f1f1;
+}
+
+/* megjelenítés hoverre */
+.dropdown:hover .dropdown-list {
+  display: block;
+}
