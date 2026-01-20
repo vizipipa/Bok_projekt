@@ -7,10 +7,26 @@ body {
   color: #1f2933;
 }
 
-/* Kártya */
+/* Fejléc */
+header {
+  background-color: #0f172a;
+}
+
+header a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+header a:hover {
+  color: #38bdf8;
+}
+
+/* Kártyák */
 .info-card {
   background-color: #ffffff;
-  border-radius: 12px;
+  border-radius: 14px;
   padding: 2rem;
   margin-bottom: 1.5rem;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
@@ -23,31 +39,15 @@ body {
   font-weight: 700;
   margin-bottom: 1rem;
   padding-bottom: 0.6rem;
-  border-bottom: 4px solid #0d9488;
+  border-bottom: 4px solid #2563eb;
 }
 
-/* Alcím */
+/* Alcímek */
 h2 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-top: 1rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.6rem;
   padding-left: 0.6rem;
-  border-left: 4px solid #0d9488;
-}
-
-/* Menü */
-header {
-  background-color: #0f172a;
-}
-
-header a {
-  color: #e5e7eb;
-  text-decoration: none;
-  font-weight: 600;
-  margin-right: 15px;
-}
-
-header a:hover {
-  color: #5eead4;
+  border-left: 4px solid #2563eb;
 }
