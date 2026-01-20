@@ -2,22 +2,33 @@ body {
   margin: 0;
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 18px;
-  background-color: #f8fafc;
+  background-color: #eef2f7;
   color: #1f2933;
 }
 
+/* Szolgáltatás kártyák */
 .service-card {
   background-color: #ffffff;
   border-radius: 14px;
   padding: 2rem;
   margin-bottom: 1.5rem;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
+/* Címek */
 h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
   border-bottom: 4px solid #2563eb;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 1rem;
 }
 /*menu */
 .custom-navbar {
